@@ -12,6 +12,9 @@ def guess_number():
         # какой-то комментарий
         # ещё один комментарий
         # последний комментарий
+    while True:
+        # Какой-то комментарий
+
         try:
             guess = int(input("Enter your guess: "))
             attempts += 1
@@ -25,5 +28,11 @@ def guess_number():
         except ValueError:
             print("Please enter a valid integer.")
 
+
     if attempts >= max_attempts:
         print(f"Sorry, you've reached the maximum attempts. The number was {number_to_guess}.")
+
+
+if __name__ == "__main__":
+    guess_number()
+
