@@ -10,6 +10,7 @@ def guess_number():
 
     while attempts < max_attempts:
         # какой-то комментарий
+        # ещё один комментарий
         try:
             guess = int(input("Enter your guess: "))
             attempts += 1
